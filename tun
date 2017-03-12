@@ -1,3 +1,5 @@
+#Digs an exploration shaft to be picked for minerals
+
 while true do
     if (turtle.getFuelLevel()==0) then
       turtle.refuel(1)
