@@ -1,6 +1,7 @@
 while true do
-    if (turtle.getFuelLevel()==0)
+    if (turtle.getFuelLevel()==0) then
       turtle.refuel(1)
+    end
     turtle.digDown()
     turtle.dig()
     turtle.digUp()
