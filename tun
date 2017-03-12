@@ -1,0 +1,8 @@
+while true do
+    if (turtle.getFuelLevel()==0)
+      turtle.refuel(1)
+    turtle.digDown()
+    turtle.dig()
+    turtle.digUp()
+    turtle.forward()
+end
